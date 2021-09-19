@@ -8,10 +8,9 @@
     <title>CinemaPage</title>
     <!--fontawsome lib-->
     <link rel="stylesheet" href="css/lib/all.min.css" />
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <title>CinemaPage</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <!--style sheet-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -19,7 +18,13 @@
     <div class="text-center py-5">
         <img src="images/Ganja Mall.png" class="rounded" alt="...">
     </div>
-    <nav class="navbar sticky-top navbar-light px-5">
+    <nav class="navbar sticky-top navbar-light active-nav px-5">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+        </button>
         <div class="container-fluid">
             <a class="navbar-brand" href="Map Page - Brands.html">
                 <img src="images/Path.png" alt="" width="18" height="23" class="d-inline-block align-text-top">
@@ -31,30 +36,30 @@
             </a>
             <a class="navbar-brand" href="Map Page - Categories.html">
                 <img src="images/wine.png" alt="" width="18" height="23" class="d-inline-block align-text-top">
-                Restaurants
+                <span> Restaurants</span>
             </a>
             <a class="navbar-brand" href="News Page.html">
                 <img src="images/confetti.png" alt="" width="18" height="23" class="d-inline-block align-text-top">
-                Fun
+                <span> Fun</span>
             </a>
             <a class="navbar-brand" href="Cinema Page.html">
                 <img src="images/film.png" alt="" width="18" height="23" class="d-inline-block align-text-top">
-                Cinema
+                <span class="active"> Cinema </span>
             </a>
             <a class="navbar-brand" href="Movie Page.html">
                 <img src="images/clock.png" alt="" width="18" height="23" class="d-inline-block align-text-top">
-                Working Hours
+                <span> Working Hours</span>
             </a>
             <a class="navbar-brand" href="Map Page - Brand Page.html">
                 <img src="images/telephone.png" alt="" width="18" height="23" class="d-inline-block align-text-top">
-                Contacts
+                <span>Contacts </span>
             </a>
             <a class="navbar-brand" href="#">
-                EN
+                <span> EN </span>
             </a>
             <a class="navbar-brand" href="#">
 
-                AZ
+                <span>AZ </span>
             </a>
             <a class="navbar-brand" href="#">
 
@@ -165,10 +170,11 @@
                     <h2 class="text-uppercase font-weight-bold">Address</h2>
                     <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
-                        <i class="fas fa-home  p-2"></i><a  class="text-black" href="">Naserddin Tusi 19 str.,Ganja</a>
+                        <i class="fas fa-home  p-2"></i><a class="text-black" href="">Naserddin Tusi 19 str.,Ganja</a>
                     </p>
                     <p>
-                        <i class="fas fa-phone   p-2"></i> <a   class="text-black" href="tel:+99125533379">+99125533379</a>
+                        <i class="fas fa-phone   p-2"></i> <a class="text-black"
+                            href="tel:+99125533379">+99125533379</a>
                     </p>
                     <p>
                         <i class="fas fa-envelope   p-2"></i><a class="text-black"
@@ -220,10 +226,11 @@
 
 
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-        crossorigin="anonymous"></script>
+    <!--jQuery-->
+    <script src="js/lib/jquery.slim.min.js"></script>
+    <!--Bootstrap.Js-->
+    <script src="js/lib/bootstrap.bundle.min.js"></script>
+    <script src="js/lib/main.js"></script>
 
 </body>
 
